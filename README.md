@@ -10,4 +10,6 @@ Each http server should include the next features:
 
 - Testing
 
+- Simple ini style config file
+
 - Use standard tools and coding style.
