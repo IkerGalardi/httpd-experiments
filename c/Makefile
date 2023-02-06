@@ -4,8 +4,9 @@ CONFIG=debug
 
 CFLAGS=-Wall -Wextra -Wpedantic -std=c17 -Isrc
 
-OBJS=bin/main.o    \
-     bin/config.o  \
+OBJS=bin/main.o       \
+     bin/config.o     \
+	 bin/tcp_server.o \
 
 all: httpd
 
