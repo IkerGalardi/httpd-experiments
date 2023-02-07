@@ -7,6 +7,7 @@ CFLAGS=-Wall -Wextra -Wpedantic -std=c17 -Isrc
 OBJS=bin/main.o       \
      bin/config.o     \
 	 bin/tcp_server.o \
+	 bin/str.o 
 
 all: httpd
 
